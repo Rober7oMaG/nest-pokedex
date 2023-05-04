@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 export interface PokeAPIResponse {
   count: number;
   next: string;
@@ -9,4 +8,4 @@ export interface PokeAPIResponse {
 export interface Result {
   name: string;
   url: string;
-};
+}
