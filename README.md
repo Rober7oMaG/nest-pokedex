@@ -16,6 +16,16 @@ npm i -g @nestjs/cli
 ```
 docker-compose up -d
 ```
+5. Clone __.env.template__ file and rename the copy to __.env__
+6. Fill environment variables in ```.env``` file
+7. Execute app in development mode
+```
+yarn start:dev
+```
+8. Rebuild database with seed
+```
+localhost:3000/api/v2/seed
+```
 
 ## Used Stack
 * NestJS
